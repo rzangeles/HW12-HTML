@@ -1,0 +1,26 @@
+# Landing page
+
+Top - setup a  Nav bar with Title of Latitude on the right (background color green)
+and menu items on the right.  Plots will be a drop down
+
+
+Body - split into 2 sections
+
+Left has Summary and some comments
+
+Right has Visualizations with 4 graphs
+
+# Visualization pages - 4
+
+main body has the graph and a write up about the graph.  Clickable items are on the right side
+
+
+# Comparison
+
+contains all 4 visualization on the same page (4 graphs)
+
+
+# Data
+
+displays the responsive table ontaining all the data.  Table must be a bootstrap table
+component.  Data must come from exporting the .csv as html

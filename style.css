@@ -1,0 +1,56 @@
+body {
+    background:lightgray;
+  }
+
+
+
+h1 {
+    font-size: 50px;
+    color: green;
+}
+
+h2 {
+    font-size: 40px;
+    color: green;
+}
+
+h3 {
+    font-size: 40px;
+    color: blue;
+}
+
+.main {
+    font-size: 50px;
+}
+
+.row {
+    
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px; 
+  }
+
+  .row div{
+      background: white;
+     
+  }
+
+  .navbar li {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 3px;
+  }
+
+  internal{
+    border: 1px soid green;
+
+  }
+
+  
