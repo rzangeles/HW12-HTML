@@ -10,31 +10,35 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div>
-    <nav class="navbar">
-                <ul>
-                  <li>
-                    <a href="index.html">Home</a>
-                  </li>
-                  <li class"nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#">Plots</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <a class="dropdown-item" href="temperature.html">Temperature</a>
-                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="windspeed.html">Windspeed</a>
-                    </div>
-                  </li>
-                  <li>
-                    <a href="comparison.html">Comparison</a>
-                  </li>
-                  <li>
-                    <a href="data.html">Data</a>
-                  </li>
-                </ul>
-              </nav>
-
-</div>
+        <div>
+                <nav class="navbar">
+                            <ul>
+                              <li>
+                                <a href="index.html">Home</a>
+                              </li>
+                              <li class"nav-item dropdown">
+                                
+                                <div class="dropdown">
+                                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                                    <span class="caret"></span></button>
+                                    <ul class="dropdown-menu">
+                                      <li><a href="temperature.html">Temperature</a></li>
+                                      <li><a href="humidity.html">Humidity</a></li>
+                                      <li><a href="cloudiness.html">Cloudiness</a></li>
+                                      <li><a href="windspeed.html">Windspeed</a></li>
+                                    </ul>
+                                  </div>
+                              </li>
+                              <li>
+                                <a href="comparison.html">Comparison</a>
+                              </li>
+                              <li>
+                                <a href="data.html">Data</a>
+                              </li>
+                            </ul>
+                          </nav>
+            
+            </div>
 
 
 <div class="container">
@@ -54,24 +58,24 @@
             <td align="center"> 
                 <h2>vs. Max Temperature</h2>
                 <br>
-                <a href="temperature.html"><img src="Resources/Temperature&Lat.png" height="400" width="450" ></a>
+                <a href="temperature.html"><img src="Temperature&Lat.png" height="400" width="450" ></a>
             </td>    
             <td align="center">
                     <h2>vs. Cloudiness</h2>
                     <br>
-                <a href="cloudiness.html"><img src="Resources/Cloudiness&Lat.png" height="400" width="450"></a>
+                <a href="cloudiness.html"><img src="Cloudiness&Lat.png" height="400" width="450"></a>
             </td>
         </tr>
         <tr>
             <td align="center">
                     <h2>vs. Humidity</h2>
                     <br>
-                <a href="humidity.html"><img src="Resources/Humidity&Lat.png" height="400" width="450"></a>
+                <a href="humidity.html"><img src="Humidity&Lat.png" height="400" width="450"></a>
             </td>    
             <td align="center">
                     <h2>vs. Windspeed</h2>
                     <br>
-                <a href="windspeed.html"><img src="Resources/Windspeed&Lat.png" height="400" width="450"></a>
+                <a href="windspeed.html"><img src="Windspeed&Lat.png" height="400" width="450"></a>
             </td>           
         </tr>
        </table>

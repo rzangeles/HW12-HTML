@@ -17,13 +17,17 @@
                     <a href="index.html">Home</a>
                   </li>
                   <li class"nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#">Plots</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <a class="dropdown-item" href="temperature.html">Temperature</a>
-                        <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                        <a class="dropdown-item" href="humidity.html">Humidity</a>
-                        <a class="dropdown-item" href="windspeed.html">Windspeed</a>
-                    </div>
+                    
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Plots
+                        <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                          <li><a href="temperature.html">Temperature</a></li>
+                          <li><a href="humidity.html">Humidity</a></li>
+                          <li><a href="cloudiness.html">Cloudiness</a></li>
+                          <li><a href="windspeed.html">Windspeed</a></li>
+                        </ul>
+                      </div>
                   </li>
                   <li>
                     <a href="comparison.html">Comparison</a>
